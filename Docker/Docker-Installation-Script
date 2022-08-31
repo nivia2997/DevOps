@@ -7,5 +7,4 @@ sudo usermod -aG docker ${whoami}
 sudo gpasswd -a ${USER} docker
 sudo systemctl restart docker
 sudo systemctl enable docker
-docker ps
 
