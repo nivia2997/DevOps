@@ -17,9 +17,3 @@ sudo sed -i "s/root/$user/g" /home/$user/.ssh/id_rsa.pub
 sudo sed -i "s/root/$user/g" /home/$user/.ssh/id_rsa 
 sudo chmod 600 /home/$user/.ssh/id_rsa.pub
 sudo chmod 600 /home/$user/.ssh/id_rsa
-sudo yum install python3 -y
-sudo alternatives --set python /usr/bin/python3
-sudo python --version
-sudo yum -y install python3-pip
-#sudo pip3 install ansible --user
-#antes de correr el último comando, cambiate a usuario "nivia"
